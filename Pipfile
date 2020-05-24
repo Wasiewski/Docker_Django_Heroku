@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 gunicorn = "*"
 django = "*"
+dj-database-url = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.6"
