@@ -1,4 +1,4 @@
-# Base Image
+#Base image 
 FROM python:3.6
 
 # create and set working directory
