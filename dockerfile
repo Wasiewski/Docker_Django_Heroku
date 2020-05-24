@@ -41,3 +41,4 @@ RUN pipenv install --skip-lock --system --dev
 
 # Heroku provide port, we don't have to expose
 # EXPOSE 8888
+CMD gunicorn webapp.wsgi:application --bind 0.0.0.0:$PORT
